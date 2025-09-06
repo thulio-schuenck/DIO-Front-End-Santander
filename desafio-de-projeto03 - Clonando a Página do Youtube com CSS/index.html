@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clone YouTube - DIO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="/assets/icons/icon-youtube.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+
+      <div class="cabecalho-esquerda">
+        <button class="menu" aria-label="Menu">
+          <img src="/assets/icons/menu.png" alt="Menu" width="20">
+        </button>
+        <img src="/assets/img/youtube 1.png" alt="Logotipo YouTube" class="logotipo">
+      </div>
+
+      <div class="cabecalho-centro">
+        <div class="container-pesquisa">
+          <input type="text" placeholder="Pesquisar" class="input-pesquisa" aria-label="Pesquisar">
+          <button class="botao-pesquisa" aria-label="Botão de pesquisa">
+            <img src="/assets/icons/search.png" alt="Pesquisar" class="img-pesquisa">
+          </button>
+        </div>
+      </div>
+
+      <nav class="cabecalho-direito" aria-label="Ações do usuário">
+        <button class="botao-icone" aria-label="Criar vídeo">
+          <img src="/assets/icons/video.png" alt="Criar vídeo">
+        </button>
+        <button class="botao-icone" aria-label="Notificações">
+          <img src="/assets/icons/bell.png" alt="Notificações">
+        </button>
+        <button class="botao-icone" aria-label="Perfil">
+          <a href="https://github.com/thulio-schuenck" target="_blank">
+            <img src="/assets/img/img-perfil.JPG" alt="Imagem de perfil" class="img-perfil">
+          </a>
+        </button>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="conteudo-principal">
+    <section class="secao-video" style="flex: 1;">
+      <div class="player-video">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/DqC8R2p0lls?si=eNflTxya3jm_wFe9" 
+          title="Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="metadados-video">
+        <h1 class="titulo-video">
+          Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+        </h1>
+        
+        <div class="info-video">
+          <div class="info-canal">
+            <img class="logo-canal" src="/assets/img/Channel Avatar.png" alt="Logo do canal">
+            <div class="nome-canal">DIO</div>
+            <div class="inscritos-canal">123 mil inscritos</div>
+            <button class="botao-inscrever" id="botaoInscrever">INSCREVA-SE</button>
+            <button class="botao-interacao">
+              <img src="/assets/icons/like.png" alt="Like">
+              <span>3 mil</span>
+            </button>
+            <button class="botao-interacao">
+              <img src="/assets/icons/deslike.png" alt="Deslike">
+              <span>Não gostei</span>
+            </button>
+            <button class="botao-interacao">
+              <img src="/assets/icons/share-2.png" alt="Compartilhar">
+              <span>Compartilhar</span>
+            </button>
+            <button class="botao-interacao">
+              <img src="/assets/icons/download.png" alt="Download">
+              <span>Download</span>
+            </button>
+          </div>
+
+          <div class="info-descricao">
+            <p class="descricao-viewer">28.418 visualizações  Transmitido ao vivo em 23 ago. de 2022</p>
+            <p class="descricao-principal">Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="barra-lateral">
+      <div class="video-recomendado">
+        <img src="/assets/img/image01.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Geração Tech Unimed - BH - Ciência de Dados</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image02.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Scrum Talks</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">1,6 mil visualizações Transmitido há 3 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image03.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Machine Learning Avançado - Fast Track</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">1,7 mil visualizações Transmitido há 4 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image04.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Global Skills #2 - Project Planning</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">971 visualizações Transmitido há 5 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image05.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Como aprender a programar Python do ZERO</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">711 visualizações Transmitido há 6 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image01.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Geração Tech Unimed - BH - Ciência de Dados</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">2,1 mil visualizações Transmitido há 2 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image02.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Scrum Talks</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">1,6 mil visualizações Transmitido há 3 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image03.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Machine Learning Avançado - Fast Track</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">1,7 mil visualizações Transmitido há 4 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image04.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Global Skills #2 - Project Planning</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">971 visualizações Transmitido há 5 dias</p>
+        </div>
+      </div>
+      <div class="video-recomendado">
+        <img src="/assets/img/image05.png" alt="Thumb vídeo" class="miniatura-video">
+        <div class="info-video-lateral">
+          <p class="titulo-video-lateral">Como aprender a programar Python do ZERO</p>
+          <p class="nome-canal-lateral">DigitalInnovationOne</p>
+          <p class="stats-video-lateral">711 visualizações Transmitido há 6 dias</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+</body>
+</html>

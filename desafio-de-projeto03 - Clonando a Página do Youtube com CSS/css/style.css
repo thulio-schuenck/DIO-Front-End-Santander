@@ -1,0 +1,261 @@
+/* ---------- FONTE BASE ---------- */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+/* ---------- CABEÇALHO ---------- */
+.cabecalho {
+  margin: 10px 30px;
+}
+
+.cabecalho-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.cabecalho-esquerda .menu {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.logotipo {
+  width: 90px;
+  height: 20px;
+}
+
+/* ---------- PESQUISA ---------- */
+.container-pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+.input-pesquisa {
+  flex: 1;
+  padding: 10px 25px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 40px 0 0 40px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+}
+
+.botao-pesquisa {
+  border: 1px solid gray;
+  background-color: #ccc;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0 40px 40px 0;
+  transition: background 0.2s ease;
+}
+
+.botao-pesquisa:hover {
+  background: #b5b5b5;
+}
+
+/* ---------- ÍCONES CABEÇALHO ---------- */
+.cabecalho-direito {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.botao-icone {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.botao-icone:hover {
+  opacity: 0.8;
+}
+
+.img-perfil {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* ---------- CONTEÚDO PRINCIPAL ---------- */
+.conteudo-principal {
+  display: flex;
+  gap: 24px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.player-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ---------- TEXTO ---------- */
+h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 12px;
+}
+
+/* ---------- INFO VÍDEO ---------- */
+.info-video {
+  margin-top: 12px;
+  padding: 8px 0;
+  border-top: 1px solid #ddd;
+}
+
+.info-canal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo-canal {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nome-canal {
+  font-weight: 700;
+  color: #030303;
+  font-size: 16px;
+}
+
+.inscritos-canal {
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+}
+
+.botao-inscrever {
+  margin-left: auto;
+  padding: 10px 20px;
+  border: 1px solid #e60000;
+  border-radius: 5px;
+  background: #e60000;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.botao-inscrever:hover {
+  background: #a50000;
+}
+
+/* ---------- BOTÕES DE INTERAÇÃO ---------- */
+.botoes-interacao {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.botao-interacao {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.botao-interacao:hover {
+  opacity: 0.7;
+}
+
+.botao-interacao span {
+  font-weight: 600;
+  font-size: 14px;
+  color: black;
+}
+
+.descricao-viewer {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.descricao-principal {
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* ---------- BARRA LATERAL ---------- */
+.barra-lateral {
+  width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+}
+
+.video-recomendado {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.miniatura-video {
+  width: 168px;
+  height: 94px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info-video-lateral {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-video-lateral {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.nome-canal-lateral,
+.stats-video-lateral {
+  font-size: 12px;
+  color: #606060;
+  margin: 2px 0;
+}
+
+/* ---------- RESPONSIVO ---------- */
+@media (max-width: 768px) {
+  .conteudo-principal {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .barra-lateral {
+    display: none;
+  }
+
+  .cabecalho {
+    margin: 10px 10px;
+  } 
+}
