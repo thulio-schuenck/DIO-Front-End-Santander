@@ -15,7 +15,7 @@ function updateProfileInfo(profileData) {
 
    const phone = document.getElementById('profile.phone')
    phone.innerText = profileData.phone
-   phone.href = `tel: ${profileData.phone}`
+   phone.href = `tel:${profileData.phone}`
 
    const email = document.getElementById('profile.email')
    email.innerText = profileData.email
@@ -40,11 +40,11 @@ function updateLanguages(profileData) {
 }
 
 function updatePortfolio(profileData) {
-   const portfolio = document.getElementById('.profile.portfolio')
+   const portfolio = document.getElementById('profile.portfolio')
    portfolio.innerHTML = profileData.portfolio.map(project => {
       return `
       <li>
-      <h3 ${project.github ? 'class="github"' : ''}> ${project.name}</h3>
+      <h3 ${project.github ? 'class="github"' : ''}>${project.name}</h3>
       <a href="${project.url}" target="_blank">${project.url}</a> 
       </li>
       `
