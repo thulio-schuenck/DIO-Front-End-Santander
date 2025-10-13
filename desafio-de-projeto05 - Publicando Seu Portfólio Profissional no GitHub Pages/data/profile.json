@@ -41,13 +41,33 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Construindo uma Landing Page no Mundo Invertido com HTML e CSS",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End/tree/main/desafio-de-projeto08%20-%20Construindo%20uma%20Landing%20Page%20no%20Mundo%20Invertido%20com%20HTML%20e%20CSS",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Multiverso Spider-Man Criando um Site com HTML, CSS e JavaScript",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End/tree/main/desafio-de-projeto09%20-%20Multiverso%20Spider-Man%20Criando%20um%20Site%20com%20HTML%2C%20CSS%20e%20JavaScript",
+      "github": true
+    },
+    {
+      "name": "Clonando a Página do Youtube com CSS",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End-Santander/tree/main/desafio-de-projeto03%20-%20Clonando%20a%20P%C3%A1gina%20do%20Youtube%20com%20CSS",
+      "github": true
+    },
+    {
+      "name": "Construindo um Layout Responsivo Para o Site do Discord",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End-Santander/tree/main/desafio-de-projeto04%20-%20Construindo%20um%20Layout%20Responsivo%20Para%20o%20Site%20do%20Discord",
+      "github": true
+    },
+    {
+      "name": "Construindo uma Pokédex com JavaScript",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End/tree/main/desafio-de-projeto05%20-%20Construindo%20uma%20Pok%C3%A9dex%20com%20JavaScript",
+      "github": true
+    },
+    {
+      "name": "Criando um Jogo de Cartas do Yu-Gi-Oh! com JavaScript e CSS",
+      "url": "https://github.com/thulio-schuenck/DIO-Front-End/tree/main/desafio-de-projeto06%20-%20Criando%20um%20Jogo%20de%20Cartas%20do%20Yu-Gi-Oh!%20com%20JavaScript%20e%20CSS",
       "github": true
     }
   ],
