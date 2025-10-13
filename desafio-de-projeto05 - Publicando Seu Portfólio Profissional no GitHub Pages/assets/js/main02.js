@@ -18,7 +18,7 @@ function updateProfileInfo(profileData) {
 
   const email = document.getElementById("profile.email");
   email.innerText = profileData.email;
-  email.href = `mailton:${profileData.email}`;
+  email.href = `mailto:${profileData.email}`;
 }
 
 function updateSoftSkills(profileData) {
@@ -32,8 +32,8 @@ function updateHardSkills(profileData) {
   const hardSkills = document.getElementById("profile.skills.hardSkills");
   hardSkills.innerHTML = profileData.skills.hardSkills
     .map(
-      (skill) =>
-        `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`
+      (skills) =>
+        `<li><img src="${skills.logo}" alt="${skills.name}" title="${skills.name}"></li>`
     )
     .join("");
 }
@@ -75,7 +75,7 @@ function updateProfessionalExperience(profileData) {
       
       `;
     })
-    .join("");
+    .join('');
 }
 
 (async () => {
@@ -85,5 +85,5 @@ function updateProfessionalExperience(profileData) {
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
-  updateprofessionalExperience(profileData);
+  updateProfessionalExperience(profileData);
 })();
