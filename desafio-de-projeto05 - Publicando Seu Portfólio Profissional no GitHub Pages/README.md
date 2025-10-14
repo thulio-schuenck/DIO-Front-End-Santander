@@ -3,7 +3,7 @@
 
 No decorrer deste desafio de projeto, foi desenvolvido um portfólio com integração a uma API, em que as entradas de informações foram realizadas por meio de uma estrutura em formato JSON, possibilitando a aplicação prática e o aprimoramento dos conhecimentos em JavaScript.
 
-**[Acesse meu portfólio](https://thulio-schuenck.github.io/js-developer-portfolio/)**
+**[Acesse o site do portfólio](https://thulio-schuenck.github.io/js-developer-portfolio/)**
 
  ![Imagem da tela do site de portfólio](assets/img/01.png)
 
